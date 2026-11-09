@@ -1,0 +1,28 @@
+{
+  "name": "systemflow-s3-ride-ghosting",
+  "version": "1.0.0",
+  "description": "Driver surge gaming lockout, adaptive queue backpressure decay, and automated circuit breaker fallback fleet dispatch.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "circuit-breaker",
+    "backpressure",
+    "rate-limiting",
+    "surge-pricing",
+    "dispatch-engine",
+    "ride-sharing"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8",
+    "@types/node": "^22.10.1"
+  }
+}

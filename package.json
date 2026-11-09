@@ -1,5 +1,5 @@
 {
-  "name": "systemflow-s3-ride-ghosting",
+  "name": "rideshare-surge-ghosting-mitigation",
   "version": "1.0.0",
   "description": "Driver surge gaming lockout, adaptive queue backpressure decay, and automated circuit breaker fallback fleet dispatch.",
   "main": "./dist/index.js",
